@@ -313,7 +313,8 @@ a {
 	border: 1px solid var(--color-form-border);
 	border-radius: 4px;
 	background-color: var(--color-modal);
-	transition: border 250px var(--cubic-bezier);
+	transition: border 2250px var(--cubic-bezier);
+	/* transition: outline 2250px var(--cubic-bezier); */
 }
 .modal-form-input-wrapper {
 	position: relative;
@@ -330,6 +331,10 @@ a {
 	outline: 1px solid var(--text-color-iris);
 	border: transparent;
 }
+/* .modal-form-input:focus {
+	border: 1px solid var(--text-color-iris);
+	outline: none;
+} */
 .modal-form-input:focus ~ .modal-form-input-svg {
 	fill: var(--text-color-iris);
 	/* fill: currentColor; */
@@ -347,10 +352,11 @@ a {
 	color: var(--color-form-text);
 	border: 1px solid var(--color-form-border);
 	border-radius: 4px;
+	transition: border 250ms var(--cubic-bezier);
 }
 .modal-form-textarea:focus {
-	outline: 1px solid var(--text-color-iris);
-	border: transparent;
+	border: 1px solid var(--text-color-iris);
+	outline: none;
 }
 .modal-form-checkbox {
 	display: flex;
