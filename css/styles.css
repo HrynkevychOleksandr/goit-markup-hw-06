@@ -362,7 +362,7 @@ a {
 	transition: border 250ms var(--cubic-bezier);
 }
 .modal-form-textarea:focus {
-	border: 1px solid var(--color-ocean));
+	border: 1px solid var(--color-ocean);
 	outline: none;
 }
 .modal-form-checkbox {
